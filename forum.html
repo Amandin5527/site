@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="css/forum.css" rel="stylesheet">
+        <script src="script/forum.js"></script>
+        <script src="script/bouton_site.js"></script>
+        <link rel="icon" type="image/png" href="img/iconegdaddict.png">
+        <title>GD ad2ict forum</title>
+    </head>
+    <body class="avernus">
+        <header class="jsp">
+            <table class="jsp">
+                <tr id="tttt">
+                    <td class="jsp2"><div class="jsp3"><button class="partie" id="bouton1" onclick="site(5)">GD AD2ICT</button></td>
+                    <td class="jsp2"><div class="jsp3"><button class="partie" id="bouton2" onclick="site(1)">Discord</button></div></td>
+                    <td class="jsp2"><div class="jsp3"><button class="partie" id="bouton3" onclick="site(2)">YouTube</button></div></td>
+                    <td class="jsp2"><div class="jsp3"><button class="partie" id="bouton4" onclick="site(3)">Acheter le jeu</button></div></td>
+                    <td class="jsp2"><div class="jsp3"><button class="partie" id="bouton5" onclick="site(4)">GD 2.3</button></div></td>
+                </tr>
+            </table>
+        </header>
+
+        <h2 id="titre">GD FORUM</h2>
+
+
+
+            <table class="question">
+                <tr>
+                    <td><table><tr>
+                        <td><img class="pfp" src="img/pfp1.jpg"></td>
+                        <td><p id="user">titouanleboss93 • </p></td>
+                        <td><strong id="date">il y a 3 jours</strong></td></tr></table></tr>
+                <tr><td><p>Bonjour j'aimerais que quelqu'un m'explique comment on fait pour jouer a geometry dash svp</p></td>
+                </tr><tr><td><table><tr>
+                    <td><button class="like" id="l1" onclick="like('l1')">9 j'aime</button></td>
+                    <td><button class="like" id="d1"onclick="dislike('d1')"> 69420 je n'aime pas</td></tr></table></td></tr>
+            </table>
+            <table class="reponse">
+                <tr>
+                    <td><table><tr>
+                        <td><img class="pfp" src="img/pfp2.jpg"></td>
+                        <td><p id="user">Gdaddictfan • </p></td>
+                        <td><strong id="date">il y a 3 jours</strong></td></tr></table></tr>
+                <tr><td><p>clic gauche serieux y a une commande tu la connais pas</p></td>
+                </tr><tr><td><table><tr>
+                    <td><button class="like" id="l2" onclick="like('l2')">602000000000000000000000 j'aime</button></td>
+                    <td><button class="like" id="d2" onclick="dislike('d2')">1 je n'aime pas</td></tr></table></td></tr>
+            </table>
+            <table class="reponse">
+                <tr>
+                    <td><table><tr>
+                        <td><img class="pfp" src="img/pfp3.jpg"></td>
+                        <td><p id="user">buzz_l_eclair • </p></td>
+                        <td><strong id="date">il y a 1 jour</strong></td></tr></table></tr>
+                <tr><td><p>ptdr</p></td>
+                </tr><tr><td><table><tr>
+                    <td><button class="like" id="l3" onclick="like('l3')">2 j'aime</button></td>
+                    <td><button class="like" id="d3" onclick="dislike('d3')">0 je n'aime pas</td></tr></table></td></tr>
+            </table>
+
+
+            <table class="reponse" id="reponsep1">
+                <tr>
+                    <td>
+                    <input placeholder="ajouter une réponse" id="sub1"><button onclick="submit(1)">submit</button></td>
+                </tr>
+            </table>
+
+            <table class="reponse" id="repp1">
+                <tr>
+                    <td><table><tr>
+                        <td><img class="pfp" src="img/pfp6.jpg"></td>
+                        <td><p id="user">Anonymous • </p></td>
+                        <td><strong id="date">il y a 0 seconde</strong></td></tr></table></tr>
+                <tr><td><p id="rep1"></p></td>
+                </tr><tr><td><table><tr>
+                    <td><button class="like">0 j'aime</button></td>
+                    <td><button class="like">0 je n'aime pas</td></tr></table></td></tr>
+            </table>
+
+
+            <table class="question">
+                <tr>
+                    <td><table><tr>
+                        <td><img class="pfp" src="img/pfp4.png"></td>
+                        <td><p id="user">Antijeanfils • </p></td>
+                        <td><strong id="date">il y a 6 jours</strong></td></tr></table></tr>
+                <tr><td><p>Il est trop guez ce site</p></td>
+                </tr><tr><td><table><tr>
+                    <td><button class="like" id="l4" onclick="like('l4')">7 j'aime</button></td>
+                    <td><button class="like" id="d4"onclick="dislike('d4')"> 198 je n'aime pas</td></tr></table></td></tr>
+            </table>
+            <table class="reponse">
+                <tr>
+                    <td><table><tr>
+                        <td><img class="pfp" src="img/pfp5.jpg"></td>
+                        <td><p id="user">matthieuauger93600 • </p></td>
+                        <td><strong id="date">il y a 4 jours</strong></td></tr></table></tr>
+                <tr><td><p>Aucun argument, opinion invalide.</p></td>
+                </tr><tr><td><table><tr>
+                    <td><button class="like" id="l5" onclick="like('l5')">1853211 j'aime</button></td>
+                    <td><button class="like" id="d5" onclick="dislike('d5')">2 je n'aime pas</td></tr></table></td></tr>
+            </table>
+            <table class="reponse" id="reponsep2">
+                <tr>
+                    <td>
+                    <input placeholder="ajouter une réponse" id="sub2"><button onclick="submit(2)">submit</button></td>
+                </tr>
+            </table>
+
+            <table class="reponse" id="repp2">
+                <tr>
+                    <td><table><tr>
+                        <td><img class="pfp" src="img/pfp6.jpg"></td>
+                        <td><p id="user">Anonymous • </p></td>
+                        <td><strong id="date">il y a 0 seconde</strong></td></tr></table></tr>
+                <tr><td><p id="rep2"></p></td>
+                </tr><tr><td><table><tr>
+                    <td><button class="like">0 j'aime</button></td>
+                    <td><button class="like">0 je n'aime pas</td></tr></table></td></tr>
+            </table>
+
+            <table class="question">
+                <tr>
+                    <td><table><tr>
+                        <td><img class="pfp" src="img/pfp7.jpg"></td>
+                        <td><p id="user">Florianus88 • </p></td>
+                        <td><strong id="date">il y a 3 heures</strong></td></tr></table></tr>
+                <tr><td><p>Ce site m'a permis de trouver des niveaux à faire sur Geometry Dash et maintenant je suis devenu plus fort au jeu ! Merci aux personnes qui ont fait ce site, je me permets de faire également une petite pub pour mon site FoodAddict il est trop bien allez le voir</p></td>
+                </tr><tr><td><table><tr>
+                    <td><button class="like" id="l6" onclick="like('l6')">56 j'aime</button></td>
+                    <td><button class="like" id="d6"onclick="dislike('d6')"> 0 je n'aime pas</td></tr></table></td></tr>
+            </table>
+
+
+            <table class="reponse" id="reponsep3">
+                <tr>
+                    <td>
+                    <input placeholder="ajouter une réponse" id="sub3"><button onclick="submit(3)">submit</button></td>
+                </tr>
+            </table>
+            <table class="reponse" id="repp3">
+                <tr>
+                    <td><table><tr>
+                        <td><img class="pfp" src="img/pfp6.jpg"></td>
+                        <td><p id="user">Anonymous • </p></td>
+                        <td><strong id="date">il y a 0 seconde</strong></td></tr></table></tr>
+                <tr><td><p id="rep3"></p></td>
+                </tr><tr><td><table><tr>
+                    <td><button class="like">0 j'aime</button></td>
+                    <td><button class="like">0 je n'aime pas</td></tr></table></td></tr>
+            </table>
+            
+            <footer>
+                <p id="footer">© GD Ad2ict 2023-2024</p>
+            </footer>
+    </body>
+</html>

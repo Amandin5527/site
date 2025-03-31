@@ -1,0 +1,229 @@
+@font-face {
+    font-family: geo;
+    src: url("../trucEnPlus/geometre.otf") format("woff");
+}
+
+body {
+    border: 15px solid black;
+    background-color: rgb(44, 43, 39);
+}
+
+
+.red {
+    color:white;
+    background: linear-gradient(black,darkred);
+}
+.avernus {
+    color: white;
+    background: linear-gradient(black,rgb(165, 151, 122))
+}
+.darkred{
+    color: black;
+    background: linear-gradient(darkred,red);
+    width: 100%;
+}
+.thenightmare {
+    color: black;
+    background: linear-gradient(cadetblue,aquamarine);
+}
+.freedomdive {
+    color: black;
+    background: linear-gradient(khaki, cornflowerblue);
+}
+.glowy {
+    color: white;
+    background: linear-gradient(purple,black);
+}
+.tidalwave {
+    color: white;
+    background: linear-gradient(rgb(34, 84, 221),darkblue);
+}
+
+ @keyframes abenenene {
+    from {margin-top: 400px;margin-bottom: 600px;opacity: 1;}
+    to {margin-top: 10px;margin-bottom: 0px;opacity: 0;}
+}
+
+#titre {
+    text-align: center;
+    margin-top: 400px;
+    font-size: 80px;
+    margin-bottom: 600px;
+    animation-name: abenenene;
+    animation-duration: 2s;
+    animation-play-state: paused;
+    animation-fill-mode: forwards;
+}
+
+.description {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    text-shadow: 0 0 5px black;
+}
+
+.jsp {
+    width: 100%;
+}
+.jsp2 {
+    width:20%;
+
+    justify-content: center;
+}
+.jsp3 {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+#tttt {
+    width: 100%;
+}
+
+.icone {
+    width: 20%;
+    height: 50px;
+    white-space: nowrap;
+}
+.partie {
+    width: 80%;
+    height: 50px;
+    background:rgb(46, 46, 46);
+    transition: 200ms;
+    border:none;
+    border-radius: 8px;
+    box-shadow: 0 0 10px white;
+    font-size: 20px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.partie:hover {
+    /*border-bottom: 2px solid rgb(255, 123, 0);*/
+    box-shadow: 0 0 20px rgb(255,123,0);
+    color: rgb(255,123,0);
+}
+#bouton1 {
+    background-image: url(../img/iconegdaddict.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 10px;
+}
+#bouton2 {
+    background-image: url(../img/icon-discord.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 10px;
+}
+#bouton3 {
+    background-image: url(../img/icon-yt.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 10px;
+}
+#bouton4 {
+    background-image: url(../img/icon-steam.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 10px;
+}
+#bouton5 {
+    background-image: url(../img/icon-extremedemon.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 10px;
+}
+
+
+#ytvid {
+    box-shadow: 0 0 20px black;
+}
+
+#img1 {
+    position: inherit;
+    height: 360;
+    width: 640px;
+    margin-left: 10%;
+    float: left;
+    margin-top: 30px;
+    border: 10px solid black;
+    box-shadow: 0 0 40px black;
+    transform: rotate(3deg);
+}
+
+ #img2 {
+    position: inherit;
+    height: 360px;
+    width: 640px;
+    float: right;
+    margin-right: 10%;
+    margin-top: 30px;
+    border: 10px solid black;
+    box-shadow: 0 0 40px black;
+    transform: rotate(-2deg);
+ }
+
+ #level-info {
+    width: 620px;
+    font-size: 26px;
+    text-decoration: solid;
+ }
+
+ #imgd {
+    width: 100%;
+    height: 520px;
+ }
+ #nhff {
+    margin-left: 0px;
+ }
+
+#container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+ #afficher_les_images {
+    background-color: black;
+    color: white;
+    margin-bottom: 30px;
+    width: 150px;
+    height: 30px;
+    box-shadow: 0,0,20px black;
+    border: 4px solid snow;
+    text-align: center;
+    transition: 0.4s;
+ }
+#afficher_les_images:hover {
+    border-color: aqua;
+}
+
+@keyframes fleche {
+    from {top: 700px;opacity: 1;}
+    to {top: -50px;opacity: 0;}
+}
+#faire-monter {
+    position: absolute;
+    top: 700px;
+    height: 50px;
+    width: 97%;
+    text-align: center;
+    animation-name: fleche;
+    animation-duration: 1s;
+    animation-play-state: paused;
+    animation-fill-mode: forwards;
+}
+#flech {
+    width: 100px;
+    height:100px;
+}
+
+@keyframes pagemonte {
+    from {opacity:0;}
+    to {opacity: 1;}
+}
+
+ #toutelapage {
+    opacity: 0;
+    animation-name: pagemonte;
+    animation-play-state: paused;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+ }

@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Tutoriel - GD Ad2ict</title>
+        <link rel="icon" type="image/png" href="img/iconegdaddict.png">
+        <link href="css/commentjouer.css" rel="stylesheet">
+        <script src="script/bouton_site.js"></script>
+        <script src="script/commentjouer.js"></script>
+    </head>
+    <body>
+        <header class="jsp">
+            <table class="jsp">
+                <tr id="tttt">
+                    <td class="jsp2"><div class="jsp3"><button class="partie" id="bouton1" onclick="site(5)">GD AD2ICT</button></td>
+                    <td class="jsp2"><div class="jsp3"><button class="partie" id="bouton2" onclick="site(1)">Discord</button></div></td>
+                    <td class="jsp2"><div class="jsp3"><button class="partie" id="bouton3" onclick="site(2)">YouTube</button></div></td>
+                    <td class="jsp2"><div class="jsp3"><button class="partie" id="bouton4" onclick="site(3)">Acheter le jeu</button></div></td>
+                    <td class="jsp2"><div class="jsp3"><button class="partie" id="bouton5" onclick="site(4)">GD 2.3</button></div></td>
+                </tr>
+            </table>
+        </header>
+
+        <h1 id="titre">TUTORIEL DE GEOMETRY DASH</h1>
+
+        <div class="dsds">
+            <table><tr><td><img src="img/iconegd1.png"></td><td><h1 class="soustitre"><strong>Niveaux de RobTop</strong></h1></td></tr></table>
+            <p class="blabla">Les niveaux de RobTop sont des niveaux par défaut proposés par le développeur du jeu, comme par exemple Stereo Madness, Clutterfunk ou Clubstep.</p>
+            <button onclick="masquernivx()" id="voirtout">Masquer les niveaux</button>
+        </div>
+
+        <table id="robtopniv">
+            <tr>
+                <td id="centre">Difficulté</td><td>Nom du niveau</td>
+            </tr>
+
+
+            <tr class="niveaurobtop">
+                <td><img src="img/icon-easy.png" class="dif"></td><td><span>Stereo Madness</span></td></tr>
+            <tr class="niveaurobtop">
+                <td><img src="img/icon-easy.png" class="dif"></td><td><span>Back On Track</span></td></tr>
+            <tr class="niveaurobtop">
+                <td><img src="img/icon-medium.png" class="dif"></td><td><span>Polargeist</span></td></tr>
+            <tr class="niveaurobtop">
+                <td><img src="img/icon-medium.png" class="dif"></td><td><span>Dry Out</span></td></tr>
+            <tr class="niveaurobtop">
+                <td><img src="img/icon-hard.png" class="dif"></td><td><span>Base After Base</span></td></tr>
+            <tr class="niveaurobtop">
+                <td><img src="img/icon-hard.png" class="dif"></td><td><span>Can't Let Go</span></td></tr>
+            <tr class="niveaurobtop">
+                <td><img src="img/icon-harder.png" class="dif"></td><td><span>Jumper</span></td></tr>
+            <tr class="niveaurobtop">
+                <td><img src="img/icon-harder.png" class="dif"></td><td><span>Time Machine</span></td></tr>
+            <tr class="niveaurobtop">
+                <td><img src="img/icon-harder.png" class="dif"></td><td><span>Cycles</span></td></tr>
+            <tr class="niveaurobtop">
+                <td><img src="img/icon-harder.png" class="dif"></td><td><span>Blast Processing</span></td></tr>
+            <tr class="niveaurobtop">
+                <td><img src="img/icon-harder.png" class="dif"></td><td><span>Geometrycal Dominator</span></td></tr>
+            <tr class="niveaurobtop">
+                <td><img src="img/icon-insane.png" class="dif"></td><td><span>XStep</span></td></tr>
+            <tr class="niveaurobtop">
+                <td><img src="img/icon-insane.png" class="dif"></td><td><span>Clutterfunk</span></td></tr>
+            <tr class="niveaurobtop">
+                <td><img src="img/icon-insane.png" class="dif"></td><td><span>Theory of Everything</span></td></tr>
+            <tr class="niveaurobtop">
+                <td><img src="img/icon-insane.png" class="dif"></td><td><span>Electroman Adventures</span></td></tr>
+            <tr class="niveaurobtop">
+                <td><img src="img/icon-harddemon.png" class="dif"></td><td><span>Clubstep</span></td></tr>
+            <tr class="niveaurobtop">
+                <td><img src="img/icon-insane.png" class="dif"></td><td><span>Hexagon Force</span></td></tr>
+            <tr class="niveaurobtop">
+                <td><img src="img/icon-insane.png" class="dif"></td><td><span>Electrodynamix</span></td></tr>
+            <tr class="niveaurobtop">
+                <td><img src="img/icon-harddemon.png" class="dif"></td><td><span>Theory of Everything 2</span></td></tr>
+            <tr class="niveaurobtop">
+                <td><img src="img/icon-harddemon.png" class="dif"></td><td><span>Deadlocked</span></td></tr>
+            <tr class="niveaurobtop">
+                <td><img src="img/icon-insane.png" class="dif"></td><td><span>Fingerdash</span></td></tr>
+            <tr class="niveaurobtop">
+                <td><img src="img/icon-insane.png" class="dif"></td><td><span>Dash</span></td></tr>
+        </table>
+
+
+        <div class="dsdsds">
+            <table><tr><td><img src="img/iconegd2.png"></td><td><h1 class="soustitre"><strong>Niveaux pour progresser</strong></h1></td></tr></table>
+            <p class="blabla">Voici une liste de niveaux que nous avons faite pour progresser. Certains niveaux sont directement dans le site tandis que d'autres redirigeront sur le wiki.</p>
+
+            <button id="toutAM" class="btnc" onclick="afficher('tout')">Progresser en tout</button>
+            <button id="cubeAM" class="btnc" onclick="afficher('cube')">Progresser en Cube</button>
+            <button id="shipAM" class="btnc" onclick="afficher('ship')">Progresser en Ship</button>
+            <button id="waveAM" class="btnc" onclick="afficher('wave')">Progresser en Wave</button>
+
+            <div class="am" id="tout">
+                <h2>Progresser en tout</h2>
+                <table>
+                    <tr>
+                        <td><p class="texte">Pour progresser dans tous les styles de gameplay il faut faire des niveaux variés. Faites la liste ci-contre pour progresser en tout.</p></td>
+                        <td><ol>
+                            <li><a href="https://geometry-dash.fandom.com/wiki/Fingerdash">Fingerdash (page wiki)</a></li>
+                            <li><a href="niveaux/deathmoon.html">Death Moon (page GD addict)</a></li>
+                            <li><a href="https://geometry-dash.fandom.com/wiki/Clubstep">Clubstep (page wiki)</a></li>
+                            <li><a href="https://geometry-dash-fan.fandom.com/wiki/X">X (page wiki)</a></li>
+                        </ol></td>
+                    </tr>
+                </table>
+            </div>
+
+            <div class="am" id="cube">
+                <h2>Progresser en Cube</h2>
+                <table>
+                    <tr>
+                        <td><p class="texte">Le Cube est le mode de jeu principal de Geometry Dash, il est donc essentiel de progresser dans ce type de gameplay. Voila les niveaux à faire.</p></td>
+                        <td><ol>
+                            <li><a href="niveaux/tn.html">The Nightmare (page GD addict)</a></li>
+                            <li><a href="https://geometry-dash-fr.fandom.com/fr/wiki/Clutterfunk">Clutterfunk</a></li>
+                            <li><a href="https://geometry-dash-fr.fandom.com/fr/wiki/Hexagon_Force">Hexagon Force (page wiki)</a></li>
+                            <li>Shiver (aucune page disponible)</li>
+                        </ol></td>
+                    </tr>
+                </table>
+            </div>
+
+            <div class="am" id="ship">
+                <h2>Progresser en Ship</h2>
+                <table>
+                    <tr>
+                        <td><p class="texte">Le Ship peut parfois être très difficile dans certains niveaux donc il est essentiel de progresser dans de mode de jeu.</p></td>
+                        <td><ol>
+                            <li><a href="niveaux/deathmoon.html">Death Moon (page GD addict)</a></li>
+                            <li><a href="https://geometry-dash.fandom.com/wiki/Electrodynamix">Electrodynamix (page wiki)</a></li>
+                            <li><a href="https://geometry-dash-fr.fandom.com/fr/wiki/Deadlocked">Deadlocked (page wiki)</a></li>
+                        </ol></td>
+                    </tr>
+                </table>
+            </div>
+
+            <div class="am" id="wave">
+                <h2>Progresser en Wave</h2>
+                <table>
+                    <tr>
+                        <td><p class="texte">La wave est un mode de gameplay qui est souvent très difficile. Voici 4 niveaux pour progresser en Wave.</p></td>
+                        <td><ol>
+                            <li><a href="niveaux/decode.html">DeCode (page GD addict)</a></li>
+                            <li><a href="niveaux/avernus.html">Avernus (^-^)</a></li>
+                            <li><a href="https://geometry-dash-fr.fandom.com/fr/wiki/Deadlocked">Deadlocked (page wiki)</a></li>
+                        </ol></td>
+                    </tr>
+                </table>
+            </div>
+
+        </div>
+
+
+        <footer>
+            <p id="footer">© GD Ad2ict 2023-2024</p>
+        </footer>
+    </body>
+</html>

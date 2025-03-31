@@ -1,0 +1,135 @@
+@font-face {
+    font-family: geo;
+    src: url("../trucEnPlus/geometre.otf") format("woff");
+}
+
+body {
+    background-image: url(../img/fond_ecran2.jpg);
+    background-attachment: fixed;
+    color: white;
+}
+
+.jsp {
+    width: 100%;
+}
+.jsp2 {
+    width:20%;
+
+    justify-content: center;
+}
+.jsp3 {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+#tttt {
+    width: 100%;
+}
+.partie {
+    width: 80%;
+    height: 50px;
+    background:rgb(46, 46, 46);
+    transition: 200ms;
+    border:none;
+    border-radius: 8px;
+    box-shadow: 0 0 10px white;
+    font-size: 20px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.partie:hover {
+    /*border-bottom: 2px solid rgb(255, 123, 0);*/
+    box-shadow: 0 0 20px rgb(255,123,0);
+    color: rgb(255,123,0);}
+#bouton1 {
+    background-image: url(../img/iconegdaddict.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 10px;}
+#bouton2 {
+    background-image: url(../img/icon-discord.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 10px;}
+#bouton3 {
+    background-image: url(../img/icon-yt.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 10px;}
+#bouton4 {
+    background-image: url(../img/icon-steam.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 10px;}
+#bouton5 {
+    background-image: url(../img/icon-extremedemon.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 10px;}
+
+
+#titre {
+    text-align: center;
+    font-size: 50px;
+    font-family: geo;
+    color: aquamarine;
+    text-shadow: 0 0 20px blue;
+}
+#ddd {
+    white-space: inherit;
+}
+.question {
+    width: 1800px;
+    border: 5px solid rgb(255,123,0);
+    margin-left: 0px;
+    margin-top: 30px;
+    background-color: rgba(0,0,0,0);
+    transition: 0.5s;
+}
+.question:hover {
+    background-color: rgba(0, 0, 0, 0.75);
+}
+.reponse {
+    width: 1740px;
+    border: 5px solid rgb(255,123,0);
+    margin-left: 60px;
+    transition: 0.5s;
+}
+.reponse:hover{
+    background-color: rgba(0,0,0,0.75);
+}
+.pfp {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+
+#user {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+#date {
+    text-decoration: underline;
+}
+
+.like {
+    border: 5px solid black;
+    background-color: gray;
+    color:white;
+    
+}
+.like:active {
+    background-color: black;
+}
+#footer {
+    text-align: center;
+}
+
+#repp1 {
+    display: none;
+}
+#repp2 {
+    display: none;
+}
+#repp3 {
+    display: none;
+}

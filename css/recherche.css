@@ -1,0 +1,145 @@
+@font-face {
+    font-family: geo;
+    src: url("../trucEnPlus/geometre.otf") format("woff");
+}
+
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-image: url(../img/fond_ecran2.jpg);
+}
+
+
+.jsp {
+    width: 100%;
+}
+.jsp2 {
+    width:20%;
+
+    justify-content: center;
+}
+.jsp3 {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+#tttt {
+    width: 100%;
+}
+.icone {
+    width: 20%;
+    height: 50px;
+    white-space: nowrap;
+}
+.partie {
+    width: 80%;
+    height: 50px;
+    background:rgb(46, 46, 46);
+    transition: 200ms;
+    border:none;
+    border-radius: 8px;
+    box-shadow: 0 0 10px white;
+    font-size: 20px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.partie:hover {
+    /*border-bottom: 2px solid rgb(255, 123, 0);*/
+    box-shadow: 0 0 20px rgb(255,123,0);
+    color: rgb(255,123,0);
+}
+#bouton1 {
+    background-image: url(../img/iconegdaddict.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 10px;
+}
+#bouton2 {
+    background-image: url(../img/icon-discord.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 10px;
+}
+#bouton3 {
+    background-image: url(../img/icon-yt.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 10px;
+}
+#bouton4 {
+    background-image: url(../img/icon-steam.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 10px;
+}
+#bouton5 {
+    background-image: url(../img/icon-extremedemon.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 10px;
+}
+#cherchnivx {
+    border: 2px solid rgb(255,123,0);
+    height: 35px;
+    width: 300px;
+    background-color: rgb(37, 37, 37);
+    color: white;
+    font-family: geo;
+    font-size: 20px;
+}
+#valider {
+    color: white;
+    border: 2px solid rgb(255,123,0);
+    background-color: #000000;
+    transition: 0.5s;
+    margin-left: 10px;
+    height: 35px;
+    width: 100px;
+}
+#valider:hover{
+    border: 2px solid deepskyblue;
+}
+
+
+.niveau {
+    border: 12px solid red;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    margin-bottom: 20px;
+    transition: 0.5s;
+}
+.niveau:hover {
+    background-color: rgba(0, 0, 0, 1);
+    box-shadow: 0 0 40px red;
+}
+
+#nivtitre {
+    text-shadow: 0 0 20px rgb(212, 0, 255), 0 0 40px blue;
+    font-size: 50px;
+    margin-bottom: 10px;
+    margin-top: 0px;
+}
+#thumbnail {
+    height: 150px;
+    width: 150px
+}
+
+#diff {
+    height: 50px;
+    width: 50px;
+    white-space: nowrap;
+}
+
+#boutonfin {
+    width: 400px;
+    height: 50px;
+    font-family: geo;
+    background-color: black;
+    border: 5px solid rgb(255,123,0);
+    color: white;
+    transition: 0.6s;
+}
+#boutonfin:hover {
+    width: 600px;
+    height: 55px;
+    border: 5px solid rgb(212, 0, 255);
+}

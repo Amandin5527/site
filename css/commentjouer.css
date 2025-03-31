@@ -1,0 +1,218 @@
+@font-face {
+    font-family: geo;
+    src: url("../trucEnPlus/geometre.otf") format("woff");
+}
+
+body {
+    border: 15px solid black;
+    background-image: url(../img/fond_ecran3.png);
+    background-attachment: fixed;
+}
+
+
+
+
+#titre {
+    text-align: center;
+    margin-top: 400px;
+    font-size: 80px;
+    margin-bottom: 200px;
+    animation-name: abenenene;
+    animation-duration: 2s;
+    animation-play-state: paused;
+    animation-fill-mode: forwards;
+}
+
+.description {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    text-shadow: 0 0 5px black;
+}
+
+.jsp {
+    width: 100%;
+}
+.jsp2 {
+    width:20%;
+
+    justify-content: center;
+}
+.jsp3 {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+#tttt {
+    width: 100%;
+}
+
+.icone {
+    width: 20%;
+    height: 50px;
+    white-space: nowrap;
+}
+.partie {
+    width: 80%;
+    height: 50px;
+    background:rgb(46, 46, 46);
+    transition: 200ms;
+    border:none;
+    border-radius: 8px;
+    box-shadow: 0 0 10px white;
+    font-size: 20px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.partie:hover {
+    /*border-bottom: 2px solid rgb(255, 123, 0);*/
+    box-shadow: 0 0 20px rgb(255,123,0);
+    color: rgb(255,123,0);
+}
+#bouton1 {
+    background-image: url(../img/iconegdaddict.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 10px;
+}
+#bouton2 {
+    background-image: url(../img/icon-discord.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 10px;
+}
+#bouton3 {
+    background-image: url(../img/icon-yt.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 10px;
+}
+#bouton4 {
+    background-image: url(../img/icon-steam.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 10px;
+}
+#bouton5 {
+    background-image: url(../img/icon-extremedemon.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 10px;
+}
+
+@keyframes titre {
+    0% {color: aqua;}
+    13% {color: blue;}
+    40%{color: blueviolet;}
+    60% {color: red;}
+    73% {color: purple;}
+    100% {color: aqua;}
+}
+
+
+#titre {
+    text-align: center;
+    font-size: 100px;
+    text-shadow: 0 0 60px black;
+    font-family: geo;
+    color: white;
+    animation: titre;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+.dsds {
+    width: 80%;
+    height: 200px;
+    border: 5px groove greenyellow;
+    color: azure;
+    overflow: auto;
+    padding: 20px;
+    transition: 0.3s;
+    border-radius: 20px;
+    box-shadow: 0 0 20px black;
+    margin-bottom: 50px;
+}
+.dsdsds {
+    width: 80%;
+    height: 500px;
+    border: 5px groove greenyellow;
+    color: azure;
+    overflow: auto;
+    padding: 20px;
+    transition: 0.3s;
+    border-radius: 20px;
+    box-shadow: 0 0 20px black;
+}
+
+
+.dsds:hover {
+    -webkit-backdrop-filter: blur(15px);
+    backdrop-filter: blur(10px);
+    background-color: rgba(129, 157, 236, 0.2);
+}
+
+.dsdsds:hover {
+    -webkit-backdrop-filter: blur(15px);
+    backdrop-filter: blur(10px);
+    background-color: rgba(129, 157, 236, 0.2);
+}
+
+.soustitre {
+    white-space: normal;
+    font-family: geo;
+}
+
+img {
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+}
+.blabla {
+    font-size: 20px;
+}
+
+#robtopniv {
+    border: 5px solid black;
+    margin-left: 50px;
+    margin-bottom: 30px;
+    padding: 10px;
+    margin-top: 10px;
+    width: 400px;
+}
+.niveaurobtop {
+    border: 2px solid black;
+    font-size: 25px;
+}
+
+.dif {
+    width: 50px;
+    height: 50px;
+}
+
+.am {
+    border: 5px solid black;
+    padding: 5px;
+    display: none;
+    margin-top: 20px;
+}
+.btnc {
+    background-color: grey;
+}
+
+div.am h2 {
+    text-shadow: 0 0 20px blue;
+    font-size: 40px;
+    font-family: geo;
+}
+div.am p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#centre {
+    text-align: center;
+}
+
+
+#footer {
+    text-align: center;
+}

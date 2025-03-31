@@ -1,0 +1,150 @@
+@font-face {
+    font-family: geo;
+    src: url("trucEnPlus/geometre.otf") format("woff");
+}
+body {
+    background-image: url(img/fond_ecran.jpg);
+    background-attachment:fixed;
+    color: white;
+}
+.jsp {
+    width: 100%;
+}
+.jsp2 {
+    width:20%;
+
+    justify-content: center;
+}
+.jsp3 {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+#tttt {
+    width: 100%;
+}
+.icone {
+    width: 20%;
+    height: 50px;
+    white-space: nowrap;
+}
+.partie {
+    width: 80%;
+    height: 50px;
+    background:rgb(46, 46, 46);
+    transition: 200ms;
+    border:none;
+    border-radius: 8px;
+    box-shadow: 0 0 10px white;
+    font-size: 20px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.partie:hover {
+    /*border-bottom: 2px solid rgb(255, 123, 0);*/
+    box-shadow: 0 0 20px rgb(255,123,0);
+    color: rgb(255,123,0);
+}
+#bouton1 {
+    background-image: url(img/iconegdaddict.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 10px;
+}
+#bouton2 {
+    background-image: url(img/icon-discord.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 10px;
+}
+#bouton3 {
+    background-image: url(img/icon-yt.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 10px;
+}
+#bouton4 {
+    background-image: url(img/icon-steam.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 10px;
+}
+#bouton5 {
+    background-image: url(img/icon-extremedemon.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 10px;
+}
+.titre {
+font-size: 90px;
+color: rgb(45, 129, 255);
+text-align: center;
+font-family: Blippo, fantasy;
+text-shadow: 0 0 20px #43637e, 0 0 30px #4b199c, 0 0 40px #470099, 0 0 50px #ac11c0, 0 0 60px #000000, 0 0 70px #000000, 0 0 80px #000000;
+}
+.dive {
+    border : 2px solid rgb(255, 123, 0);
+    border-width: 20px;
+    box-shadow: 0 0 20px rgb(255, 123, 0);
+
+    transition: 0.3s;
+    margin-bottom: 60px;
+}
+.dive:hover {
+    border-color: deepskyblue;
+    box-shadow: 0 0 20px deepskyblue;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.colonne {
+    width: 10px;
+}
+.jeuxx {
+    width: 50%;
+    height: 50%;
+    box-shadow: 0 0 20px rgb(200,200,200);
+    margin-top: 20px;
+    margin-bottom: 10px;
+    transition: 0.3s;
+}
+.jeuxx:hover {
+    width: 55%;
+    height: 55%;
+    box-shadow: 0 0 20px rgb(155, 195, 255);
+}
+.niveaux {
+    font-family: geo;
+    font-size: 25px;
+    color: white;
+    text-shadow: 0 0 20px #ff0000;
+}
+.soustitre {
+    font-family: geo;
+    font-size: 40px;
+    text-shadow: 0 0 20px rgb(155, 119, 0);
+}
+
+#cherchnivx {
+    border: 2px solid rgb(255,123,0);
+    height: 35px;
+    width: 300px;
+    background-color: rgb(37, 37, 37);
+    color: white;
+    font-family: geo;
+    font-size: 20px;
+}
+#valider {
+    color: white;
+    border: 2px solid rgb(255,123,0);
+    background-color: #000000;
+    transition: 0.5s;
+    margin-left: 10px;
+    height: 35px;
+    width: 100px;
+}
+#valider:hover{
+    border: 2px solid deepskyblue;
+}
+#footer{
+    text-align: center;
+}
